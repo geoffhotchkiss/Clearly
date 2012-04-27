@@ -1003,7 +1003,7 @@ $Clearly.smartNew = function() {
     event.preventDefault();
   });
   
-  $Clearly.nav.bind({code:'72'}, function(event) { // h
+  $Clearly.nav.bind({code:'67'}, function(event) { // h... I don't like this, changed to c
     $Clearly.nav.hide();
     $Clearly.save();
     event.preventDefault();
@@ -1063,12 +1063,12 @@ $Clearly.smartNew = function() {
     event.preventDefault();
   });
   
-  $Clearly.nav.bind({ctrl:false, shift:false, code:'37'}, function(event) { // left
+  $Clearly.nav.bind({ctrl:false, shift:false, code:'72'}, function(event) { // left... now h
     $Clearly.active.parent($Clearly.selector).activate().scrollShow();
     event.preventDefault();
   });
   
-  $Clearly.nav.bind({ctrl:false, shift:false, code:'39'}, function(event) { // right
+  $Clearly.nav.bind({ctrl:false, shift:false, code:'76'}, function(event) { // right
     $Clearly.active.children($Clearly.selector).first().activate().scrollShow();
     event.preventDefault();
   });
@@ -1092,7 +1092,7 @@ $Clearly.smartNew = function() {
     event.preventDefault();
   });
   
-  $Clearly.nav.bind({shift:false, code:'38'}, function(event) { // up
+  $Clearly.nav.bind({shift:false, code:'75'}, function(event) { // up... now k
     if(event.ctrlKey) {
       $Clearly.nav.walkUp();
     } else {
@@ -1101,7 +1101,7 @@ $Clearly.smartNew = function() {
     event.preventDefault();
   });
   
-  $Clearly.nav.bind({shift:false, code:'40'}, function(event) { // down
+  $Clearly.nav.bind({shift:false, code:'74'}, function(event) { // down... now l
     if(event.ctrlKey) {
       $Clearly.nav.walkDown();
     } else {
