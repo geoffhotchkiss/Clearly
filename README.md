@@ -1,3 +1,7 @@
+My Changes
+----------
+My version exists at http://csh.rit.edu/~geoff/clearly/Clearly
+
 Clearly
 =======
 
